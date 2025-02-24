@@ -1,0 +1,10 @@
+<header>
+        <h1>こんにちは</h1>
+        <nav>
+            <ul>
+                <li>投資</li>
+                <li>プログラミング</>
+                <li>数学</li>
+            </ul>
+        </nav>
+</header>
