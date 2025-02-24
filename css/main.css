@@ -26,5 +26,6 @@ nav ul {
             justify-content: center;
         }
         nav ul li {
+            width: 150px;
             margin: 0 15px;
         }
