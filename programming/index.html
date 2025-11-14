@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    </head>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+
+<body>
+
+    
+    <div id="header-placeholder"></div>
+
+
+
+    <main>
+        <p>Programming</p>
+        <a href="./python.html">python</a>
+        <a href="./haskell.html">haskell</a>
+        $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+        <p>行列</p>
+        $$ \begin{pmatrix}
+                a & b \\
+                c & d
+           \end{pmatrix} = mc^2 $$
+        <p>プログラミングコード</p>
+        <pre><code>
+            def hello():
+                print("Hello, world!")
+        </code></pre>
+
+
+    </main>
+    <script>
+        fetch("./header.html")
+        .then((response) => response.text())
+        .then((data) => document.querySelector("#header-placeholder").innerHTML = data);
+    </script>
+</body>
+</html>
